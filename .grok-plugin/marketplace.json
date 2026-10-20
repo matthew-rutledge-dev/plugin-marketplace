@@ -486,6 +486,18 @@
         "email": "support@videogen.io",
         "url": "https://github.com/video-gen"
       }
+    },
+    {
+      "name": "grokbot-discord-fleet",
+      "description": "Discord fleet manage and status MCP servers plus skills for Grok Build. Check bot health, guilds, channels and an optional self-hosted bridge, read channel history, and run confirm-gated Discord post and moderation actions with your own Discord bot token. Does not include the wake bridge.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/matthew-rutledge-dev/grokbot-discord-fleet.git",
+        "sha": "f7b901d33aa10a63dfa257a7050d06ef81a88da6"
+      },
+      "homepage": "https://github.com/matthew-rutledge-dev/grokbot-discord-fleet",
+      "keywords": ["grokbot-discord-fleet", "grokbot discord fleet", "grok bot discord fleet"]
     }
   ]
 }
