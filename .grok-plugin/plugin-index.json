@@ -525,8 +525,8 @@
       }
     },
     "grokbot-discord-fleet": {
-      "sha": "f7b901d33aa10a63dfa257a7050d06ef81a88da6",
-      "version": "0.3.27",
+      "sha": "38e582114a4fa4f971a083058fc711528f95031e",
+      "version": "0.3.32",
       "components": {
         "mcpServers": [
           {
@@ -539,6 +539,10 @@
           }
         ],
         "skills": [
+          {
+            "name": "discord-bridge-dual-deliver",
+            "description": "Use when a Discord bridge wake arrives (last line \"⟂ d:<slug>:<msgId> …\" or first line d:<slug>:<msgId>) — decode it, t…"
+          },
           {
             "name": "discord-fleet-boundary",
             "description": "use this when any Discord fleet work comes up — status, manage, wake questions, or channel binding"
@@ -553,7 +557,7 @@
           },
           {
             "name": "discord-fleet-hop-shorthand",
-            "description": "use this when Discord wake inbound hits a Grok bot, or when preparing callback context — decode/encode short hop ids (d…"
+            "description": "use only when encoding a Discord hop id (d:<slug>:<msgId>) for another agent or for callback correlation. Not for inbou…"
           },
           {
             "name": "discord-fleet-manage",
@@ -562,6 +566,10 @@
           {
             "name": "discord-fleet-status",
             "description": "use this when checking Discord fleet health, bridge /healthz, Discord bot identity, guilds, or channel lists"
+          },
+          {
+            "name": "discord-wake-on-sleep",
+            "description": "Wake on sleep (recommended) — standard setup step right after bridge + callback setup so Discord messages can wake a sl…"
           }
         ]
       }
