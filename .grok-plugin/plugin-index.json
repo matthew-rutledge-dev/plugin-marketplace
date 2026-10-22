@@ -525,16 +525,12 @@
       }
     },
     "grokbot-discord-fleet": {
-      "sha": "38e582114a4fa4f971a083058fc711528f95031e",
-      "version": "0.3.32",
+      "sha": "41cc56984fbfb3d3003ef93f08e26da3a360f324",
+      "version": "0.3.33",
       "components": {
         "mcpServers": [
           {
-            "name": "discord-fleet-manage",
-            "description": "stdio"
-          },
-          {
-            "name": "discord-fleet-status",
+            "name": "discord-fleet",
             "description": "stdio"
           }
         ],
@@ -561,7 +557,7 @@
           },
           {
             "name": "discord-fleet-manage",
-            "description": "use this when planning Discord channel bindings or running confirm-gated Discord REST manage actions (inspect, history,…"
+            "description": "use this when planning Discord channel bindings, reading Discord state (inspect, history, permissions), or running conf…"
           },
           {
             "name": "discord-fleet-status",

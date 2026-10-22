@@ -489,12 +489,12 @@
     },
     {
       "name": "grokbot-discord-fleet",
-      "description": "Discord fleet manage and status MCP servers plus skills for Grok Build. Check bot health, guilds, channels and an optional self-hosted bridge, read channel history, and run confirm-gated Discord post and moderation actions with your own Discord bot token. Does not include the wake bridge.",
+      "description": "One Discord fleet MCP server (discord-fleet) plus skills for Grok Build. Check bot health, guilds, channels and an optional self-hosted bridge, read channel history, and run confirm-gated Discord post and moderation actions with your own Discord bot token. Optional read-only mode hides the write tools. Does not include the wake bridge.",
       "category": "development",
       "source": {
         "source": "url",
         "url": "https://github.com/matthew-rutledge-dev/grokbot-discord-fleet.git",
-        "sha": "38e582114a4fa4f971a083058fc711528f95031e"
+        "sha": "41cc56984fbfb3d3003ef93f08e26da3a360f324"
       },
       "homepage": "https://github.com/matthew-rutledge-dev/grokbot-discord-fleet",
       "keywords": ["grokbot-discord-fleet", "grokbot discord fleet", "grok bot discord fleet"]
